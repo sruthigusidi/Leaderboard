@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Leader Board</title>
+</head>
+<body>
+    
+    <div class="main_container">
+
+        <h1 class="board">  Leader Board </h1>
+        <div id="enter_data">
+            <input type="text" name="name" class="fname" id="fname" placeholder="First Name">
+            <input type="text" name="name" class="lname" id="lname" placeholder="Last Name">
+          
+
+            <select id="country">
+                <option value="">Select Country</option>
+                <option value="AF"><img src="./Flags/af.png" alt="Afghanistan Flag">Afghanistan</option>
+                <option value="AU"><img src="./Flags/au.png" alt="Australia Flag">Australia</option>
+                <option value="BD"><img src="./Flags/bd.png" alt="Bangladesh Flag">Bangladesh</option>
+                <option value="WI"><img src="./Flags/wi.png" alt="West Indies Flag">West Indies</option>
+                <option value="ENG"><img src="./Flags/eng.png" alt="England Flag">England</option>
+                <option value="SL"><img src="./Flags/sl.png" alt="Sri Lanka Flag">Sri Lanka</option>
+                <option value="PAK"><img src="./Flags/pak.png" alt="Pakistan Flag">Pakistan</option>
+                <option value="IN"><img src="./Flags/in.png" alt="India Flag">India</option>
+                <option value="SGP"><img src="./Flags/sgp.png" alt="Singapore Flag">Singapore</option>
+                <option value="USA"><img src="./Flags/usa.png" alt="United States">United States</option>
+               
+                </select>
+
+            <input type="number" name="score" id="submit" placeholder="Score">
+            <button id="add_player">Add Player</button>
+        </div>
+        <div id="data">
+            <div class="index">
+                <p>Rank</p>
+                <p>Name</p>
+                <p>Country</p>
+                <p>Score</p>
+                <p>Score Count</p>
+                <p>Delete</p>
+                <p>Time & Date</p>
+            </div>
+            <div id="player_data">
+                
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
